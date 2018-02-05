@@ -2,15 +2,27 @@ en:
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
+    header:
       vi: "Vietnamese"
       en: "English"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+    footer:
+      sm1: "The"
+      a: "Ruby on Rails Tutorial"
+      sm2: "by"
+      about: "About"
+      contact: "Contact"
+      new: "News"
   static_pages:
     home:
       title: "Home"
-      h1: "Sample App"
+      h1: "Welcome to the Sample App"
       p1: "This is home page for the"
       a: "Ruby on Rails Tutorial"
       p2: "sample application."
+      a2: "Sign up now!"
     help:
       title: "Help"
       h1: "Help"
