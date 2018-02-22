@@ -47,3 +47,23 @@ en:
       h1: "Contact"
       p: "Contact the Ruby on Rails Tutorial about the sample app at the"
       a: "contact page"
+  users:
+    new:
+      title: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirm: "Password Confirmation"
+      submit: "Create my account"
+      gender: "Gender"
+      age: "Age"
+    show:
+      male: "Male"
+      female: "Female"
+      error: "User doesn't exist"
+    create:
+      welcome: "Welcome to Sample App!"
+  shared:
+    error_messages:
+      form: "The form contain "
+      error: "error"

@@ -47,3 +47,40 @@ vi:
       h1: "Liên hệ"
       p: "Liên hệ với hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
       a: "trang liên hệ"
+  users:
+    new:
+      title: "Đăng kí"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirm: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+      gender: "Giới tính"
+      age: "Tuổi"
+      male: "Nam"
+      female: "Nữ"
+    show:
+      male: "Nam"
+      female: "Nữ"
+      error: "Người dùng không tồn tại"
+    create:
+          welcome: "Chào mừng đến với ứng dụng mẫu!"
+  activerecord:
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: ""
+        age: "Tuổi"
+    errors:
+      messages:
+        blank: "không được để trống"
+        too_short: "quá ngắn"
+        invalid: "không hợp lệ"
+        confirmation: "Xác nhận mật khẩu không đúng"
+        not_a_number: "phải là một số"
+  shared:
+    error_messages:
+      form: "Biểu mẫu chứa "
+      error: "lỗi"
