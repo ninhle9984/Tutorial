@@ -8,6 +8,7 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      logout: "Log out"
     footer:
       sm1: "The"
       a: "Ruby on Rails Tutorial"
@@ -67,3 +68,12 @@ en:
     error_messages:
       form: "The form contain "
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      new: "New user?"
+      a: "Sign up now!"
+    create:
+      errors: "Invalid email/password combination"
