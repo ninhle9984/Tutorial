@@ -17,6 +17,7 @@ gem "bootstrap-sass", "3.3.7"
 gem "config"
 gem "bcrypt", "3.1.11"
 gem "hirb"
+gem "jquery-rails"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

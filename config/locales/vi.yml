@@ -8,6 +8,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       log_in: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       sm1: ""
       a: "Hướng dẫn Ruby on Rails"
@@ -84,3 +89,12 @@ vi:
     error_messages:
       form: "Biểu mẫu chứa "
       error: "lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      new: "Người dùng mới?"
+      a: "Đăng kí ngay!"
+    create:
+      errors: "Tài khoản hoặc mật khẩu không hợp lệ"
