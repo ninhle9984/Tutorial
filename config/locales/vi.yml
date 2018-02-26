@@ -96,5 +96,6 @@ vi:
       password: "Mật khẩu"
       new: "Người dùng mới?"
       a: "Đăng kí ngay!"
+      remember: "Ghi nhớ tôi"
     create:
       errors: "Tài khoản hoặc mật khẩu không hợp lệ"
