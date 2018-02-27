@@ -7,3 +7,5 @@ name:
 age:
   maximum: 100
   minimum: 18
+page:
+  maximum: 20

@@ -1,4 +1,15 @@
 en:
+  helpers:
+    label:
+      user:
+        gender: "Gender"
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirm: "Password Confirmation"
+        age: "Age"
+        male: "Male"
+        female: "Female"
   layouts:
     application:
       title: "Ruby on Rails Tutorial Sample App"
@@ -49,21 +60,29 @@ en:
       p: "Contact the Ruby on Rails Tutorial about the sample app at the"
       a: "contact page"
   users:
+    index:
+      title: "Users"
+      users: "All users"
     new:
       title: "Sign up"
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      password_confirm: "Password Confirmation"
       submit: "Create my account"
-      gender: "Gender"
-      age: "Age"
     show:
       male: "Male"
       female: "Female"
       error: "User doesn't exist"
     create:
       welcome: "Welcome to Sample App!"
+    edit:
+      title: "Edit"
+      submit: "Save changes"
+      edit: "Update your profile"
+      login: "Please login first"
+    update:
+      success: "Profile updated"
+    user:
+      confirm: "Your sure?"
+    destroy:
+      deleted: "User deleted!"
   shared:
     error_messages:
       form: "The form contain "
