@@ -1,4 +1,15 @@
 vi:
+  helpers:
+    label:
+      user:
+        gender: "Giới tính"
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirm: "Xác nhận mật khẩu"
+        age: "Tuổi"
+        male: "Nam"
+        female: "Nữ"
   layouts:
     application:
       title: "Hướng dẫn ứng dụng mẫu Ruby on Rails"
@@ -53,23 +64,31 @@ vi:
       p: "Liên hệ với hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
       a: "trang liên hệ"
   users:
+    index:
+      title: "Người dùng"
+      users: "Tất cả người dùng"
     new:
       title: "Đăng kí"
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      password_confirm: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản"
-      gender: "Giới tính"
-      age: "Tuổi"
-      male: "Nam"
-      female: "Nữ"
     show:
       male: "Nam"
       female: "Nữ"
       error: "Người dùng không tồn tại"
     create:
-          welcome: "Chào mừng đến với ứng dụng mẫu!"
+      welcome: "Chào mừng đến với ứng dụng mẫu!"
+    edit:
+      title: "Chỉnh sửa"
+      submit: "Lưu thay đổi"
+      edit: "Cập nhật hồ sơ của bạn"
+      login: "Vui lòng đăng nhập trước"
+      change: "Thay đổi"
+    update:
+      success: "Hồ sơ đã cập nhật"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chắn?"
+    destroy:
+      deleted: "Người dùng đã được xóa!"
   activerecord:
     attributes:
       user:
@@ -99,3 +118,6 @@ vi:
       remember: "Ghi nhớ tôi"
     create:
       errors: "Tài khoản hoặc mật khẩu không hợp lệ"
+  will_paginate:
+    previous_label: "Trước"
+    next_label: "Sau"
