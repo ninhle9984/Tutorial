@@ -95,6 +95,7 @@ en:
       new: "New user?"
       a: "Sign up now!"
       remember: "Remember me on this computer"
+      reset: "Forgot password"
     create:
       errors: "Invalid email/password combination"
       message: "Your account is unactivated"
@@ -109,3 +110,24 @@ en:
       welcome: "Welcom to Sample App!"
       active: "Click the link below to activate your account"
       link: "Activate"
+    password_reset:
+      subject: "Password reset"
+      text1: "To reset your password click the link below:"
+      text2: "This link will expire in two hours."
+      text3: "If you didn't request your password to be reset, please ignore this email"
+      link: "Reset password"
+  password_resets:
+    new:
+      title: "Reset Password"
+      submit: Submit
+    create:
+      send: "Email sent with password reset instruction"
+      notfound: "Email address not found"
+    edit:
+      title: "Reset password"
+      submit: "Submit"
+    update:
+      empty: "can't be empty"
+      success: "Password has been reset"
+      expired: "Link has been expired"
+      invalid: "Link invalid or user in unactivated"
