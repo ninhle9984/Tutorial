@@ -71,7 +71,7 @@ en:
       female: "Female"
       error: "User doesn't exist"
     create:
-      welcome: "Welcome to Sample App!"
+      mail: "Please check your email to activate your account"
     edit:
       title: "Edit"
       submit: "Save changes"
@@ -97,3 +97,15 @@ en:
       remember: "Remember me on this computer"
     create:
       errors: "Invalid email/password combination"
+      message: "Your account is unactivated"
+  account_activations:
+    edit:
+      valid: "Account actvated!"
+      invalid: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      subject: "Account Activation"
+      hi: "Hi"
+      welcome: "Welcom to Sample App!"
+      active: "Click the link below to activate your account"
+      link: "Activate"

@@ -4,7 +4,9 @@ User.create! name:  "Admin",
              gender: "male",
              password:              "123456",
              password_confirmation: "123456",
-             admin: true
+             admin: true,
+             activated: true,
+             activated_at: Time.zone.now
 
 50.times do |n|
   name  = Faker::Name.name
@@ -17,7 +19,9 @@ User.create! name:  "Admin",
                age: age,
                gender: gender,
                password:              password,
-               password_confirmation: password
+               password_confirmation: password,
+               activated: true,
+               activated_at: Time.zone.now
 end
 
 51.upto(90) do |n|
@@ -31,5 +35,7 @@ end
                age: age,
                gender: gender,
                password:              password,
-               password_confirmation: password
+               password_confirmation: password,
+               activated: true,
+               activated_at: Time.zone.now
 end
