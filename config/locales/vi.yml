@@ -75,7 +75,7 @@ vi:
       female: "Nữ"
       error: "Người dùng không tồn tại"
     create:
-      mail: "Vui lòng kiểm tra email  để kích hoạt tài khoản của bạn"
+      welcome: "Chào mừng đến với ứng dụng mẫu!"
     edit:
       title: "Chỉnh sửa"
       submit: "Lưu thay đổi"
@@ -118,18 +118,6 @@ vi:
       remember: "Ghi nhớ tôi"
     create:
       errors: "Tài khoản hoặc mật khẩu không hợp lệ"
-      message: "Tài khoản chưa được kích hoạt"
   will_paginate:
     previous_label: "Trước"
     next_label: "Sau"
-  account_activations:
-    edit:
-      valid: "Tài khoản đã đươc kích hoạt"
-      invalid: "Link kích hoạt không hợp lệ"
-  user_mailer:
-    account_activation:
-      subject: "Kích hoạt tài khoản"
-      hi: "Chào"
-      welcome: "Chào mừng đến với Sample App!"
-      active: "Click vào link bên dưới để kích hoạt tài khoản của bạn"
-      link: "Kích hoạt"
