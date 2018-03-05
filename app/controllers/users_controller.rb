@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   before_action :logged_in_user, :find_user, only: %i(show edit update destroy)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
-  before_action :gender_list, only: %i(new create edit update)
+  before_action :gender_list, only: %i(new edit update)
 
   def index
     @users = User.paginate page: params[:page], per_page: Settings.page.maximum
@@ -18,9 +18,9 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if user.save
-      flash[:info] = t ".mail"
-      user.send_activation_email
-      redirect_to root_url
+      log_in user
+      flash[:success] = t ".welcome"
+      redirect_to user
     else
       render :new
     end

@@ -1,8 +1,0 @@
-<h1><%= t ".hi" %> <%= @user.name %></h1>
-
-<p>
-  <%= t ".welcome" %> <%= t ".active" %>
-</p>
-
-<%= link_to t(".link"), edit_account_activation_url(@user.activation_token,
-  email: @user.email, locale: I18n.locale) %>
