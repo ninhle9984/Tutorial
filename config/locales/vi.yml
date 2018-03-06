@@ -116,6 +116,7 @@ vi:
       new: "Người dùng mới?"
       a: "Đăng kí ngay!"
       remember: "Ghi nhớ tôi"
+      reset: "Quên mật khẩu"
     create:
       errors: "Tài khoản hoặc mật khẩu không hợp lệ"
       message: "Tài khoản chưa được kích hoạt"
@@ -133,3 +134,24 @@ vi:
       welcome: "Chào mừng đến với Sample App!"
       active: "Click vào link bên dưới để kích hoạt tài khoản của bạn"
       link: "Kích hoạt"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      text1: "Để đặt lại mật khẩu bấm vào link bên dưới:"
+      text2: "Link sẽ hết hạn trong 2 giờ"
+      text3: "Nếu bạn không yêu cầu, vui lòng bỏ qua email này"
+      link: "Đặt lại mật khẩu"
+  password_resets:
+    new:
+      title: "Đặt lại mật khẩu"
+      submit: "Xác nhận"
+    create:
+      send: "Email đã được gửi với hướng dẫn khôi phục mật khẩu"
+      notfound: "Không tìm thấy email"
+    edit:
+      title: "Đặt lại mật khẩu"
+      submit: "Xác nhận"
+    update:
+      empty: "không được để trống"
+      success: "Mật khẩu đã được thay đổi "
+      expired: "Link đã hết hạn"
+      invalid: "Link không hợp lệ hoặc người dùng chưa được kích hoạt"
