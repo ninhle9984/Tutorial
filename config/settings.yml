@@ -9,3 +9,7 @@ age:
   minimum: 18
 page:
   maximum: 20
+content:
+  maximum:  140
+pic:
+  maximum: 400
