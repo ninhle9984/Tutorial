@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   before_action :logged_in_user, :find_user, only: %i(show edit update destroy)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
+  before_action :set_relation, only: :show
   before_action :gender_list, only: %i(new create edit update)
 
   def index
@@ -58,14 +59,6 @@ class UsersController < ApplicationController
     @genders = User.genders.map do |key, value|
       [I18n.t("users.show.#{key}"), value]
     end
-  end
-
-  def find_user
-    @user = User.find_by id: params[:id]
-
-    return if user
-    flash[:danger] = t "users.show.error"
-    redirect_to root_path
   end
 
   def correct_user

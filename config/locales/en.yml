@@ -83,6 +83,10 @@ en:
       confirm: "Your sure?"
     destroy:
       deleted: "User deleted!"
+    unfollow:
+      unfollow: "Unfollow"
+    follow:
+      follow: "Follow"
   shared:
     error_messages:
       form: "The form contain "
@@ -144,3 +148,6 @@ en:
       ago: "ago"
     create:
       success: "Micropost created!"
+  follow:
+    following: "Following"
+    followers: "Followers"

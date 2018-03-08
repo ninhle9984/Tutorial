@@ -9,6 +9,7 @@ class Micropost < ApplicationRecord
   validate :picture_size
 
   scope :desc, ->{order created_at: :desc}
+  scope :feeds, ->user{where "user_id IN (?) OR user_id = ?", user.following_ids, user.id}
 
   private
 

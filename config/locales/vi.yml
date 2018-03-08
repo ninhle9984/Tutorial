@@ -89,6 +89,10 @@ vi:
       confirm: "Bạn chắc chắn?"
     destroy:
       deleted: "Người dùng đã được xóa!"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    follow:
+      follow: "Theo dõi"
   activerecord:
     attributes:
       user:
@@ -114,6 +118,9 @@ vi:
     micropost_form:
       compose: "Viết ..."
       post: "Đăng"
+    stats:
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
   sessions:
     new:
       login: "Đăng nhập"
@@ -205,3 +212,6 @@ vi:
       almost_x_years:
         one:   "khoảng 1 năm"
         other: "khoảng %{count} năm"
+  follow:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
