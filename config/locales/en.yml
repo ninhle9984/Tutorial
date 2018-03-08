@@ -87,6 +87,12 @@ en:
     error_messages:
       form: "The form contain "
       error: "error"
+    user_info:
+      micropost: "micropost"
+      view: "View my profile"
+    micropost_form:
+      compose: "Compose a micropost ..."
+      post: "Post"
   sessions:
     new:
       login: "Log in"
@@ -115,7 +121,6 @@ en:
       text1: "To reset your password click the link below:"
       text2: "This link will expire in two hours."
       text3: "If you didn't request your password to be reset, please ignore this email"
-      link: "Reset password"
   password_resets:
     new:
       title: "Reset Password"
@@ -131,3 +136,11 @@ en:
       success: "Password has been reset"
       expired: "Link has been expired"
       invalid: "Link invalid or user in unactivated"
+  microposts:
+    error: "Micropost doesn't exist"
+    micropost:
+      confirm: "You sure?"
+      post: "Posted"
+      ago: "ago"
+    create:
+      success: "Micropost created!"

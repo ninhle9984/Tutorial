@@ -108,6 +108,12 @@ vi:
     error_messages:
       form: "Biểu mẫu chứa "
       error: "lỗi"
+    user_info:
+      micropost: "bài viết"
+      view: "Xem trang cá nhân"
+    micropost_form:
+      compose: "Viết ..."
+      post: "Đăng"
   sessions:
     new:
       login: "Đăng nhập"
@@ -139,7 +145,6 @@ vi:
       text1: "Để đặt lại mật khẩu bấm vào link bên dưới:"
       text2: "Link sẽ hết hạn trong 2 giờ"
       text3: "Nếu bạn không yêu cầu, vui lòng bỏ qua email này"
-      link: "Đặt lại mật khẩu"
   password_resets:
     new:
       title: "Đặt lại mật khẩu"
@@ -155,3 +160,48 @@ vi:
       success: "Mật khẩu đã được thay đổi "
       expired: "Link đã hết hạn"
       invalid: "Link không hợp lệ hoặc người dùng chưa được kích hoạt"
+  microposts:
+    error: "Bài viết không tồn tại"
+    micropost:
+      post: "Đã đăng"
+      ago: "trước"
+      confirm: "Bạn chắc  chắn?"
+      delete: "Xóa"
+    create:
+      success: "Bài viết đã được tạo"
+  datetime:
+    distance_in_words:
+      half_a_minute: "half a minute"
+      less_than_x_seconds:
+        one:   "ít hơn 1 giây"
+        other: "ít hơn %{count} giây"
+      x_seconds:
+        one:   "1 giây"
+        other: "%{count} giây"
+      less_than_x_minutes:
+        one:   "ít hơn một phút"
+        other: "ít hơn %{count} phút"
+      x_minutes:
+        one:   "1 phút"
+        other: "%{count} phút"
+      about_x_hours:
+        one:   "khoảng 1 giờ"
+        other: "khoảng %{count} giờ"
+      x_days:
+        one:   "1 ngày"
+        other: "%{count} ngày"
+      about_x_months:
+        one:   "khoảng 1 tháng"
+        other: "khoảng %{count} tháng"
+      x_months:
+        one:   "1 tháng"
+        other: "%{count} tháng"
+      about_x_years:
+        one:   "khoảng 1 năm"
+        other: "khoảng %{count} năm"
+      over_x_years:
+        one:   "hơn 1 năm"
+        other: "hơn %{count} năm"
+      almost_x_years:
+        one:   "khoảng 1 năm"
+        other: "khoảng %{count} năm"

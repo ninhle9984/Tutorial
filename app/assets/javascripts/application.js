@@ -15,3 +15,10 @@
 //= require_tree .
 //= require jquery
 //= require bootstrap-sprockets
+
+$('#micropost_picture').bind('change', function() {
+  var siz_in_megabytes = this.file[0].size/1024/1024
+  if (siz_in_megabytes > 5) {
+    alert("Maximum file size is 5MB. Please choose a smaller file.")
+  }
+})

@@ -26,7 +26,9 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @microposts = user.feed.paginate page: params[:page]
+  end
 
   def edit; end
 
@@ -62,15 +64,8 @@ class UsersController < ApplicationController
     @user = User.find_by id: params[:id]
 
     return if user
-    flash[:danger] = I18n.t "users.show.error"
+    flash[:danger] = t "users.show.error"
     redirect_to root_path
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = I18n.t "users.edit.login"
-    redirect_to login_url
   end
 
   def correct_user
