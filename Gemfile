@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem "rails", "~> 5.1.4"
-gem "sqlite3"
+gem "mysql2", ">= 0.3.13"
 gem "puma", "~> 3.7"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
@@ -19,6 +19,7 @@ gem "bcrypt", "3.1.11"
 gem "hirb"
 gem "jquery-rails"
 gem "faker"
+gem "figaro"
 gem "will_paginate", "3.1.6"
 gem "bootstrap-will_paginate", "1.0.0"
 gem "carrierwave", "1.2.2"
@@ -42,7 +43,7 @@ group :development, :test do
   gem "rails_best_practices"
   gem "reek"
   gem "railroady"
-  gem "autoprefixer-rails"
+  gem "autoprefixer-rails",  '8.6.5'
 end
 
 group :development do
@@ -50,6 +51,10 @@ group :development do
   gem "listen", ">= 3.0.5", "< 3.2"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
+  gem "capistrano"
+  gem "capistrano-rails"
+  gem "capistrano-rvm"
+  gem "capistrano3-puma"
 end
 
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
